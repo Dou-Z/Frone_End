@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 20px;
+}
+.title {
+  text-align: center;
+}
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+  padding-top: 40px;
+}
+.input-textarea,
+.output-textarea {
+  width: 100%;
+  font-size: 18px;
+  margin-top: 10px;
+  border-color: #dddddd;
+}
+.error-message {
+  color: red;
+}
+/* 按钮美化 */
+.mo-button {
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #dcdfe6;
+  color: #606266;
+  -webkit-appearance: none;
+  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+  transition: 0.1s;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #409eff;
+  border-color: #409eff;
+}
+.mo-button:hover {
+  /* 鼠标移入按钮范围时改变颜色 */
+  background: #66b1ff;
+  border-color: #66b1ff;
+  color: #fff;
+}
+
